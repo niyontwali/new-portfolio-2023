@@ -86,7 +86,6 @@ const Portfolio = () => {
                 src="https://www.youtube.com/embed/yD8VL4POow8"
                 allowFullScreen
                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                frameborder="0"
                 width="100%"
                 height="400px"
                 title="Bizcotap Business Card"
@@ -144,7 +143,6 @@ const Portfolio = () => {
                 src="https://www.youtube.com/embed/g5o5YdC1YGE"
                 allowFullScreen
                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                frameborder="0"
                 width="100%"
                 height="400px"
                 title="WelTel Platform"
