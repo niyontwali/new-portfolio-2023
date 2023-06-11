@@ -1,5 +1,5 @@
 import Head from "next/head";
-const SalimovHead = () => {
+const MyHead = () => {
   return (
     <Head>
       <title>John - Personal Portfolio</title>
@@ -28,4 +28,4 @@ const SalimovHead = () => {
     </Head>
   );
 };
-export default SalimovHead;
+export default MyHead;

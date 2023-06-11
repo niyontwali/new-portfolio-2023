@@ -1,4 +1,4 @@
-import { salimovSlider } from "@/src/sliderProps";
+import { mySlider } from "@/src/sliderProps";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 const Clients = () => {
@@ -7,7 +7,7 @@ const Clients = () => {
       <div className="clients-container animated-layer fade-in-right-animation fadeInUp wow">
         <h3>My Clients</h3>
         <Swiper
-          {...salimovSlider.clients}
+          {...mySlider.clients}
           className="swiper swiper-clients fadeInUp wow"
         >
           {/* SWIPER ITEM STARTS */}

@@ -1,4 +1,4 @@
-import { salimovSlider } from "@/src/sliderProps";
+import { mySlider } from "@/src/sliderProps";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 const Portfolio = () => {
@@ -21,7 +21,7 @@ const Portfolio = () => {
       </div>
       {/* TITLE ENDS */}
       <Swiper
-        {...salimovSlider.portfolio}
+        {...mySlider.portfolio}
         className="swiper swiper-portfolio animated-layer fade-in-right-animation fadeInUp wow"
         data-wow-offset={200}
       >
@@ -134,7 +134,7 @@ const Portfolio = () => {
           {/* ITEM MAIN CONTENT STARTS */}
           <div className="main-content">
             <Swiper
-              {...salimovSlider.portfolioItems}
+              {...mySlider.portfolioItems}
               className="swiper swiper-portfolio-item"
             >
               <SwiperSlide className="swiper-slide">
