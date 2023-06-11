@@ -1277,13 +1277,14 @@ header .mobile-menu {
 
 .clients .swiper-slide img {
   user-select: none;
+  max-width: 150px
 }
 
 .clients .swiper-slide > div {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: rgba(0, 0, 0, 0.6);
+  background: white;
   height: 120px;
   width: 250px;
   border-radius: 20px;

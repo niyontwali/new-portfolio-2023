@@ -33,11 +33,11 @@ const Index = () => {
             <Testimonials />
             <Separator type={"up"} />
             <Contact />
-            {/* <Separator type={"down"} />
-            <Clients /> */}
             <Separator type={"down"} />
-            <Blog />
+            <Clients />
             <Separator type={"up"} />
+            <Blog />
+            <Separator type={"down"} />
             <Copyright />
           </main>
         </div>

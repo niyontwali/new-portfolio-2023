@@ -14,30 +14,14 @@ const Clients = () => {
           <SwiperSlide className="swiper-slide">
             <div>
               <img
-                src="assets/logos/themeforest-dark-background.png"
-                alt="client"
+                src="assets/clients/bizcotap.png"
+                alt="bizcotap"
               />
             </div>
             <div>
               <img
-                src="assets/logos/photodune-dark-background.png"
-                alt="client"
-              />
-            </div>
-          </SwiperSlide>
-          {/* SWIPER ITEM ENDS */}
-          {/* SWIPER ITEM STARTS */}
-          <SwiperSlide className="swiper-slide">
-            <div>
-              <img
-                src="assets/logos/graphicriver-dark-background.png"
-                alt="client"
-              />
-            </div>
-            <div>
-              <img
-                src="assets/logos/codecanyon-dark-background.png"
-                alt="client"
+                src="assets/clients/brc.png"
+                alt="brc"
               />
             </div>
           </SwiperSlide>
@@ -46,30 +30,14 @@ const Clients = () => {
           <SwiperSlide className="swiper-slide">
             <div>
               <img
-                src="assets/logos/audiojungle-dark-background.png"
-                alt="client"
+                src="assets/clients/peaceplan.png"
+                alt="peaceplanrwanda"
               />
             </div>
             <div>
-              <img
-                src="assets/logos/activeden-dark-background.png"
-                alt="client"
-              />
-            </div>
-          </SwiperSlide>
-          {/* SWIPER ITEM ENDS */}
-          {/* SWIPER ITEM STARTS */}
-          <SwiperSlide className="swiper-slide">
-            <div>
-              <img
-                src="assets/logos/3docean-dark-background.png"
-                alt="client"
-              />
-            </div>
-            <div>
-              <img
-                src="assets/logos/themeforest-dark-background.png"
-                alt="client"
+            <img
+                src="assets/clients/andela.svg"
+                alt="andela"
               />
             </div>
           </SwiperSlide>
@@ -78,30 +46,32 @@ const Clients = () => {
           <SwiperSlide className="swiper-slide">
             <div>
               <img
-                src="assets/logos/activeden-dark-background.png"
-                alt="client"
+                 src="assets/clients/weltel.png"
+                alt="weltel"
               />
             </div>
             <div>
               <img
-                src="assets/logos/audiojungle-dark-background.png"
-                alt="client"
+                src="assets/clients/vine.png"
+                alt="vinepharmacy"
               />
             </div>
           </SwiperSlide>
           {/* SWIPER ITEM ENDS */}
+          
+         
           {/* SWIPER ITEM STARTS */}
           <SwiperSlide className="swiper-slide">
             <div>
-              <img
-                src="assets/logos/graphicriver-dark-background.png"
-                alt="client"
+            <img
+                src="assets/clients/letsreason.png"
+                alt="letsreason"
               />
             </div>
             <div>
               <img
-                src="assets/logos/codecanyon-dark-background.png"
-                alt="client"
+                src="assets/clients/fuelcapp.png"
+                alt="fuelcapp"
               />
             </div>
           </SwiperSlide>

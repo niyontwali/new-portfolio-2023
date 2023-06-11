@@ -42,7 +42,7 @@ export const mySlider = {
     },
   },
   clients: {
-    slidesPerView: 2,
+    slidesPerView: 3,
     loop: true,
     breakpoints: {
       320: {
