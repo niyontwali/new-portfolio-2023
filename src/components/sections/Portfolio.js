@@ -31,43 +31,43 @@ const Portfolio = () => {
           <div className="main-content">
             <img
               className="img-fluid"
-              src="assets/portfolio/project-1.jpg"
+              src="assets/portfolio/project-1.png"
               alt="Image Project"
             />
           </div>
           {/* ITEM MAIN CONTENT ENDS */}
           {/* ITEM DETAILS STARTS */}
           <div className="details">
-            <h4>Image Project</h4>
+            <h4>Bizcotap E-commerce</h4>
             <div>
               <ul>
                 <li>
                   <span>
                     <i className="fa-regular fa-file-lines" /> Project :
                   </span>
-                  <span>Website</span>
+                  <span>E-commerce Website</span>
                 </li>
                 <li>
                   <span>
                     <i className="fa-regular fa-user" /> Client :
                   </span>
-                  <span>Envato</span>
+                  <span>Bizcotap Ltd</span>
                 </li>
                 <li>
                   <span>
                     <i className="fa-regular fa-hourglass" /> Duration :
                   </span>
-                  <span>3 months</span>
+                  <span>1 month</span>
                 </li>
                 <li>
                   <span>
                     <i className="fa-solid fa-code-branch" /> Frameworks :
                   </span>
-                  <span>WordPress</span>
+                  <span>React & Redux</span>
                 </li>
               </ul>
             </div>
-            <a href="#" target="_blank" className="custom-btn">
+            <a href="https://bizcotap.com/" target="_blank" className="custom-btn">
               <span>
                 preview <i className="fa-solid fa-arrow-up-right-from-square" />
               </span>
@@ -83,44 +83,96 @@ const Portfolio = () => {
             <div className="videocontainer">
               <iframe
                 className="youtube-video"
-                src="https://www.youtube.com/embed/AqcjdkPMPJA?enablejsapi=1&version=3&playerapiid=ytplayer"
-                allowFullScreen=""
+                src="https://www.youtube.com/embed/yD8VL4POow8"
+                allowFullScreen
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                frameborder="0"
+                width="100%"
+                height="400px"
+                title="Bizcotap Business Card"
               />
             </div>
           </div>
           {/* ITEM MAIN CONTENT ENDS */}
           {/* ITEM DETAILS STARTS */}
           <div className="details">
-            <h4>Youtube Project</h4>
+            <h4>Bizcotap NFC System</h4>
             <div>
               <ul>
                 <li>
                   <span>
                     <i className="fa-regular fa-file-lines" /> Project :
                   </span>
-                  <span>Short Film</span>
+                  <span>NFC enabled system</span>
                 </li>
                 <li>
                   <span>
                     <i className="fa-regular fa-user" /> Client :
                   </span>
-                  <span>Videohive</span>
+                  <span>Bizcotap Ltd</span>
                 </li>
                 <li>
                   <span>
                     <i className="fa-regular fa-hourglass" /> Duration :
                   </span>
-                  <span>8 months</span>
+                  <span>2 months</span>
                 </li>
                 <li>
                   <span>
                     <i className="fa-solid fa-code-branch" /> Frameworks :
                   </span>
-                  <span>After Effects</span>
+                  <span>React, Redux & NFC</span>
                 </li>
               </ul>
             </div>
-            <a href="#" target="_blank" className="custom-btn">
+            <a href="https://www.youtube.com/watch?v=yD8VL4POow8" target="_blank" className="custom-btn">
+              <span>
+                preview <i className="fa-solid fa-arrow-up-right-from-square" />
+              </span>
+            </a>
+          </div>
+          {/* ITEM DETAILS ENDS */}
+        </SwiperSlide>
+        {/* PORTFOLIO ITEM ENDS */}
+        {/* PORTFOLIO ITEM STARTS */}
+        <SwiperSlide className="single-item swiper-slide">
+          {/* ITEM MAIN CONTENT STARTS */}
+          <div className="main-content">
+            <div className="videocontainer">
+              <iframe
+                className="youtube-video"
+                src="https://www.youtube.com/embed/g5o5YdC1YGE"
+                allowFullScreen
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                frameborder="0"
+                width="100%"
+                height="400px"
+                title="WelTel Platform"
+              />
+            </div>
+          </div>
+          {/* ITEM MAIN CONTENT ENDS */}
+          {/* ITEM DETAILS STARTS */}
+          <div className="details">
+            <h4>WelTel Platform</h4>
+            <div>
+              <ul>
+                <li>
+                  <span>
+                    <i className="fa-regular fa-file-lines" /> Project :
+                  </span>
+                  <span>WelTel Health Platform</span>
+                </li>
+                <li>
+                  <span>
+                    <i className="fa-regular fa-user" /> Client :
+                  </span>
+                  <span>WelTel Inc</span>
+                </li>
+           
+              </ul>
+            </div>
+            <a href="https://www.youtube.com/watch?v=g5o5YdC1YGE" target="_blank" className="custom-btn">
               <span>
                 preview <i className="fa-solid fa-arrow-up-right-from-square" />
               </span>
@@ -144,7 +196,7 @@ const Portfolio = () => {
                 <img src="assets/portfolio/project-3.jpg" title="img" />
               </SwiperSlide>
               <SwiperSlide className="swiper-slide">
-                <img src="assets/portfolio/project-1.jpg" title="img" />
+                <img src="assets/portfolio/project-1.png" title="img" />
               </SwiperSlide>
               <div className="swiper-pagination" />
             </Swiper>
@@ -152,32 +204,32 @@ const Portfolio = () => {
           {/* ITEM MAIN CONTENT ENDS */}
           {/* ITEM DETAILS STARTS */}
           <div className="details">
-            <h4>Slider Project</h4>
+            <h4>BRC Website</h4>
             <div>
               <ul>
                 <li>
                   <span>
                     <i className="fa-regular fa-file-lines" /> Project :
                   </span>
-                  <span>Mobile App</span>
+                  <span>BRC Website</span>
                 </li>
                 <li>
                   <span>
                     <i className="fa-regular fa-user" /> Client :
                   </span>
-                  <span>Codecanyon</span>
+                  <span>Rwanda Private Sector</span>
                 </li>
                 <li>
                   <span>
                     <i className="fa-regular fa-hourglass" /> Duration :
                   </span>
-                  <span>3 months</span>
+                  <span>1 months</span>
                 </li>
                 <li>
                   <span>
                     <i className="fa-solid fa-code-branch" /> Frameworks :
                   </span>
-                  <span>React JS</span>
+                  <span>React & Redux</span>
                 </li>
               </ul>
             </div>
@@ -190,63 +242,7 @@ const Portfolio = () => {
           {/* ITEM DETAILS ENDS */}
         </SwiperSlide>
         {/* PORTFOLIO ITEM ENDS */}
-        {/* PORTFOLIO ITEM STARTS */}
-        <SwiperSlide className="single-item swiper-slide">
-          {/* ITEM MAIN CONTENT STARTS */}
-          <div className="main-content">
-            <a
-              href="https://themeforest.net"
-              target="_blank"
-              className="external"
-            >
-              <img
-                className="img-fluid"
-                src="assets/portfolio/project-3.jpg"
-                alt="External Project"
-              />
-            </a>
-          </div>
-          {/* ITEM MAIN CONTENT ENDS */}
-          {/* ITEM DETAILS STARTS */}
-          <div className="details">
-            <h4>External Link</h4>
-            <div>
-              <ul>
-                <li>
-                  <span>
-                    <i className="fa-regular fa-file-lines" /> Project :
-                  </span>
-                  <span>Advertising</span>
-                </li>
-                <li>
-                  <span>
-                    <i className="fa-regular fa-user" /> Client :
-                  </span>
-                  <span>Envato</span>
-                </li>
-                <li>
-                  <span>
-                    <i className="fa-regular fa-hourglass" /> Duration :
-                  </span>
-                  <span>1 month</span>
-                </li>
-                <li>
-                  <span>
-                    <i className="fa-solid fa-code-branch" /> Frameworks :
-                  </span>
-                  <span>Adobe Premiere</span>
-                </li>
-              </ul>
-            </div>
-            <a href="#" target="_blank" className="custom-btn">
-              <span>
-                preview <i className="fa-solid fa-arrow-up-right-from-square" />
-              </span>
-            </a>
-          </div>
-          {/* ITEM DETAILS ENDS */}
-        </SwiperSlide>
-        {/* PORTFOLIO ITEM ENDS */}
+        
         <div className="nav-item next-item animated-btn">
           <span />
         </div>

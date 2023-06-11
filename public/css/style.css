@@ -1038,7 +1038,7 @@ header .mobile-menu {
 .portfolio .single-item .main-content img {
   width: 650px;
   height: 450px;
-  object-fit: cover;
+  object-fit: contain;
   object-position: center;
   border-radius: 20px;
   cursor: grab;
