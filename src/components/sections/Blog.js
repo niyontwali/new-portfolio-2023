@@ -22,64 +22,31 @@ const Blog = () => {
           <Link href="/blog-post" legacyBehavior>
             <a>
               <span className="img-holder">
-                <img src="assets/blog/blog-post-1.jpg" alt="" />
+                <img src="assets/blog/blog-post-1.png" alt="" />
               </span>
               <div className="content">
-                <span className="category">design</span>
+                <span className="category">Web Dev</span>
                 <span className="title">
-                  How To Publish Content That Ranks On Google
+                  Getting started with Next.Js
                 </span>
                 <p>
-                  ncididunt ut labore et dolore magna aliqua. Ut enim aminim
-                  veniam...
+                  Nextjs is a React fronted development web framework which enables functionality such as server-side rendering and static site generation
                 </p>
                 <div className="meta d-flex align-items-center">
                   <div className="d-flex align-items-center">
                     <i className="fa-regular fa-calendar" />
-                    <span>9 Apr 2022</span>
+                    <span>11 June 2023</span>
                   </div>
                   <div className="d-flex align-items-center">
-                    <i className="fa-regular fa-comments" />
-                    <span>17 comments</span>
+                    <i className="fa-regular fa-user" />
+                    <span>John Niyontwali</span>
                   </div>
                 </div>
               </div>
             </a>
           </Link>
         </div>
-        {/* POST ITEM ENDS */}
-        {/* POST ITEM STARTS */}
-        <div className="animated-layer fade-in-right-animation fadeInUp wow">
-          <Link href="/blog-post" legacyBehavior>
-            <a>
-              <span className="img-holder">
-                <img src="assets/blog/blog-post-2.jpg" alt="" />
-              </span>
-              <div className="content">
-                <span className="category">development</span>
-                <span className="title">
-                  How Efficient Site Structure Can Boost SEO
-                </span>
-                <p>
-                  ncididunt ut labore et dolore magna aliqua. Ut enim aminim
-                  veniam...
-                </p>
-                <div className="meta d-flex align-items-center">
-                  <div className="d-flex align-items-center">
-                    <i className="fa-regular fa-calendar" />
-                    <span>21 Feb 2022</span>
-                  </div>
-                  <div className="d-flex align-items-center">
-                    <i className="fa-regular fa-comments" />
-                    <span>34 comments</span>
-                  </div>
-                </div>
-              </div>
-            </a>
-          </Link>
-        </div>
-        {/* POST ITEM ENDS */}
-
+        {/* POST ITEM ENDS */} 
       </div>
       {/* LATEST POSTS ENDS */}
     </section>
