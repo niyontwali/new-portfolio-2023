@@ -79,37 +79,7 @@ const Blog = () => {
           </Link>
         </div>
         {/* POST ITEM ENDS */}
-        {/* POST ITEM STARTS */}
-        <div className="animated-layer fade-in-right-animation fadeInUp wow">
-          <Link href="/blog-post" legacyBehavior>
-            <a>
-              <span className="img-holder">
-                <img src="assets/blog/blog-post-3.jpg" alt="" />
-              </span>
-              <div className="content">
-                <span className="category">essentials</span>
-                <span className="title">
-                  Change Management for Customer Success
-                </span>
-                <p>
-                  ncididunt ut labore et dolore magna aliqua. Ut enim aminim
-                  veniam...
-                </p>
-                <div className="meta d-flex align-items-center">
-                  <div className="d-flex align-items-center">
-                    <i className="fa-regular fa-calendar" />
-                    <span>1 Jan 2022</span>
-                  </div>
-                  <div className="d-flex align-items-center">
-                    <i className="fa-regular fa-comments" />
-                    <span>10 comments</span>
-                  </div>
-                </div>
-              </div>
-            </a>
-          </Link>
-        </div>
-        {/* POST ITEM ENDS */}
+
       </div>
       {/* LATEST POSTS ENDS */}
     </section>

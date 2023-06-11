@@ -22,7 +22,7 @@ const Contact = () => {
             <i className="fa fa-phone" />
             <p>
               <span className="small-text">phone</span>
-              +216 21 184 010
+              +250 786 266 073
             </p>
           </div>
           {/* CONTACT ITEM ENDS */}
@@ -52,23 +52,23 @@ const Contact = () => {
             <span className="small-text">follow me</span>
             <ul className="social">
               <li>
-                <a href="#">
+                <a href="https://github.com/niyontwali" target="_blank">
                   <i className="fa-brands fa-github" />
                 </a>
               </li>
               <li>
-                <a href="#">
+                <a href="https://twitter.com/JohnNiyontwali" target="_blank">
                   <i className="fa-brands fa-twitter" />
                 </a>
               </li>
               <li>
-                <a href="#">
-                  <i className="fa-brands fa-dribbble" />
+                <a href="https://www.linkedin.com/in/john-niyontwali-816549111/" target="_blank">
+                  <i className="fa-brands fa-linkedin" />
                 </a>
               </li>
               <li>
-                <a href="#">
-                  <i className="fa-brands fa-facebook" />
+                <a href="https://gitlab.com/nijohn" target="_blank">
+                  <i className="fa-brands fa-gitlab" />
                 </a>
               </li>
             </ul>
