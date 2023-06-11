@@ -2,13 +2,8 @@ import Head from "next/head";
 import { Fragment, useState } from "react";
 const colors = [
   { id: 1, name: "yellow" },
-  { id: 2, name: "green" },
-  { id: 3, name: "red" },
-  { id: 4, name: "blue" },
-  { id: 5, name: "orange" },
-  { id: 6, name: "yellowgreen" },
-  { id: 7, name: "pink" },
-  { id: 8, name: "goldenrod" },
+  { id: 2, name: "blue" },
+  { id: 3, name: "orange" },
 ];
 const Switcher = () => {
   const [color, setColor] = useState("yellow");
@@ -25,7 +20,7 @@ const Switcher = () => {
         style={{ display: "block" }}
       >
         <div className="content-switcher">
-          <h4>COLOR SWITCHER</h4>
+          <h4>Change Theme</h4>
           <ul>
             {colors.map((color) => (
               <li>
