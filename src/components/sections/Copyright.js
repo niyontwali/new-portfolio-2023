@@ -7,14 +7,13 @@ const Copyright = () => {
         src="assets/separator-copyright.png"
       />
       <div>
-        <span>© {new Date().getFullYear()} Steven Walker</span>
+        <span>All rights reserved © {new Date().getFullYear()} </span>
         <span>
-          Designed By{" "}
           <a
             target="_blank"
-            href="https://themeforest.net/user/Codeefly/portfolio"
+            href="https://link.bizcotap.com/profile/5689001546315d3c5869e9"
           >
-            Codeefly
+            John Niyontwali
           </a>
         </span>
         <ul>
