@@ -63,7 +63,7 @@ const Portfolio = () => {
                   <span>
                     <i className="fa-solid fa-code-branch" /> Frameworks :
                   </span>
-                  <span>React & Redux</span>
+                  <span>React, Redux & Nodejs/Express</span>
                 </li>
               </ul>
             </div>
@@ -120,7 +120,7 @@ const Portfolio = () => {
                   <span>
                     <i className="fa-solid fa-code-branch" /> Frameworks :
                   </span>
-                  <span>React, Redux & NFC</span>
+                  <span>React, Redux, NodeJS/Express & NFC</span>
                 </li>
               </ul>
             </div>
@@ -167,7 +167,7 @@ const Portfolio = () => {
                   </span>
                   <span>WelTel Inc</span>
                 </li>
-           
+
               </ul>
             </div>
             <a href="https://www.youtube.com/watch?v=g5o5YdC1YGE" target="_blank" className="custom-btn">
@@ -188,13 +188,10 @@ const Portfolio = () => {
               className="swiper swiper-portfolio-item"
             >
               <SwiperSlide className="swiper-slide">
-                <img src="assets/portfolio/project-2.jpg" title="img" />
+                <img src="assets/portfolio/project-2-1.png" title="img" />
               </SwiperSlide>
               <SwiperSlide className="swiper-slide">
-                <img src="assets/portfolio/project-3.jpg" title="img" />
-              </SwiperSlide>
-              <SwiperSlide className="swiper-slide">
-                <img src="assets/portfolio/project-1.png" title="img" />
+                <img src="assets/portfolio/project-2-2.png" title="img" />
               </SwiperSlide>
               <div className="swiper-pagination" />
             </Swiper>
@@ -227,11 +224,11 @@ const Portfolio = () => {
                   <span>
                     <i className="fa-solid fa-code-branch" /> Frameworks :
                   </span>
-                  <span>React & Redux</span>
+                  <span>React, Redux & NodeJs/Express</span>
                 </li>
               </ul>
             </div>
-            <a href="#" target="_blank" className="custom-btn">
+            <a href="https://brc.org.rw/" target="_blank" className="custom-btn">
               <span>
                 preview <i className="fa-solid fa-arrow-up-right-from-square" />
               </span>
@@ -240,7 +237,125 @@ const Portfolio = () => {
           {/* ITEM DETAILS ENDS */}
         </SwiperSlide>
         {/* PORTFOLIO ITEM ENDS */}
-        
+
+        {/* PORTFOLIO ITEM STARTS */}
+        <SwiperSlide className="single-item swiper-slide">
+          {/* ITEM MAIN CONTENT STARTS */}
+          <div className="main-content">
+            <Swiper
+              {...mySlider.portfolioItems}
+              className="swiper swiper-portfolio-item"
+            >
+              <SwiperSlide className="swiper-slide">
+                <img src="assets/portfolio/project-3-1.png" title="img" />
+              </SwiperSlide>
+              <SwiperSlide className="swiper-slide">
+                <img src="assets/portfolio/project-3-2.png" title="img" />
+              </SwiperSlide>
+              <div className="swiper-pagination" />
+            </Swiper>
+          </div>
+          {/* ITEM MAIN CONTENT ENDS */}
+          {/* ITEM DETAILS STARTS */}
+          <div className="details">
+            <h4>Shield Associates Website</h4>
+            <div>
+              <ul>
+                <li>
+                  <span>
+                    <i className="fa-regular fa-file-lines" /> Project :
+                  </span>
+                  <span>Website</span>
+                </li>
+                <li>
+                  <span>
+                    <i className="fa-regular fa-user" /> Client :
+                  </span>
+                  <span>Shield Associates Website</span>
+                </li>
+                <li>
+                  <span>
+                    <i className="fa-regular fa-hourglass" /> Duration :
+                  </span>
+                  <span>1 months</span>
+                </li>
+                <li>
+                  <span>
+                    <i className="fa-solid fa-code-branch" /> Frameworks :
+                  </span>
+                  <span>NextJs</span>
+                </li>
+              </ul>
+            </div>
+            <a href="https://shield-associates.vercel.app/" target="_blank" className="custom-btn">
+              <span>
+                preview <i className="fa-solid fa-arrow-up-right-from-square" />
+              </span>
+            </a>
+          </div>
+          {/* ITEM DETAILS ENDS */}
+        </SwiperSlide>
+        {/* PORTFOLIO ITEM ENDS */}
+
+        {/* PORTFOLIO ITEM STARTS */}
+        <SwiperSlide className="single-item swiper-slide">
+          {/* ITEM MAIN CONTENT STARTS */}
+          <div className="main-content">
+            <Swiper
+              {...mySlider.portfolioItems}
+              className="swiper swiper-portfolio-item"
+            >
+              <SwiperSlide className="swiper-slide">
+                <img src="assets/portfolio/project-4-1.png" title="img" />
+              </SwiperSlide>
+              <SwiperSlide className="swiper-slide">
+                <img src="assets/portfolio/project-4-2.png" title="img" />
+              </SwiperSlide>
+              <div className="swiper-pagination" />
+            </Swiper>
+          </div>
+          {/* ITEM MAIN CONTENT ENDS */}
+          {/* ITEM DETAILS STARTS */}
+          <div className="details">
+            <h4>Acreol Website</h4>
+            <div>
+              <ul>
+                <li>
+                  <span>
+                    <i className="fa-regular fa-file-lines" /> Project :
+                  </span>
+                  <span>Website</span>
+                </li>
+                <li>
+                  <span>
+                    <i className="fa-regular fa-user" /> Client :
+                  </span>
+                  <span>Acreol Website</span>
+                </li>
+                <li>
+                  <span>
+                    <i className="fa-regular fa-hourglass" /> Duration :
+                  </span>
+                  <span>1 months</span>
+                </li>
+                <li>
+                  <span>
+                    <i className="fa-solid fa-code-branch" /> Frameworks :
+                  </span>
+                  <span>Wordpress</span>
+                </li>
+              </ul>
+            </div>
+            <a href="https://acreol.org/" target="_blank" className="custom-btn">
+              <span>
+                preview <i className="fa-solid fa-arrow-up-right-from-square" />
+              </span>
+            </a>
+          </div>
+          {/* ITEM DETAILS ENDS */}
+        </SwiperSlide>
+        {/* PORTFOLIO ITEM ENDS */}
+
         <div className="nav-item next-item animated-btn">
           <span />
         </div>

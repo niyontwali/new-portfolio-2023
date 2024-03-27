@@ -320,18 +320,52 @@ const About = () => {
               </div>
             </li>
             {/* TIMELINE ITEM ENDS */}
-            {/* TIMELINE ITEM STARTS */}
-            <li>
-              <div className="animated-layer fade-in-down-animation fadeInUp wow">
+             {/* TIMELINE ITEM STARTS */}
+             <li>
+              <div className="animated-layer fade-in-up-animation fadeInUp wow">
                 <div className="experience">
-                  <h4>Part-time TTL</h4>
+                  <h4>Individual Consultant</h4>
                   <p>
                     <i className="fa-regular fa-clock" />
-                    <span>2022 - Now</span>
+                    <span>2015 - Now</span>
+                  </p>
+                  <p>
+                    <i className="fa-regular fa-building" />
+                    <span>Individual Consultant</span>
+                  </p>
+                </div>
+              </div>
+            </li>
+            {/* TIMELINE ITEM ENDS */}
+             {/* TIMELINE ITEM STARTS */}
+             <li>
+              <div className="animated-layer fade-in-up-animation fadeInUp wow">
+                <div className="experience">
+                  <h4>Part-time Technical Team Lead</h4>
+                  <p>
+                    <i className="fa-regular fa-clock" />
+                    <span>2020 - 2024</span>
                   </p>
                   <p>
                     <i className="fa-regular fa-building" />
                     <span>Andela</span>
+                  </p>
+                </div>
+              </div>
+            </li>
+            {/* TIMELINE ITEM ENDS */}
+            {/* TIMELINE ITEM STARTS */}
+            <li>
+              <div className="animated-layer fade-in-down-animation fadeInUp wow">
+                <div className="experience">
+                  <h4>Full-stack Dev/Lead Dev</h4>
+                  <p>
+                    <i className="fa-regular fa-clock" />
+                    <span>2021 - 2023</span>
+                  </p>
+                  <p>
+                    <i className="fa-regular fa-building" />
+                    <span>Bizcotap Ltd</span>
                   </p>
                 </div>
               </div>
